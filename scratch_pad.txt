@@ -1,0 +1,11 @@
+Ep4
+suspect 1 = Miss Scarlet
+suspect 2 = Prof. Plum
+suspect 3 = Colonel Mustard
+
+
+Ep5
+weapon changed to Revolver
+
+
+Ep6
