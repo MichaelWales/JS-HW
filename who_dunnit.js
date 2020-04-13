@@ -1,8 +1,3 @@
-// Episode
-// Guess -
-// Reasoning -
-// Correction -
-
 // // Episode 1
 // // Guess - Miss Scarlet
 // // Reasoning - It's pretty obvious here. The murderer is set initially and not
@@ -101,26 +96,116 @@
 // console.log(verdict);
 
 
-// Episode 6
-// Guess -
-// Reasoning -
-// Correction - 
-let murderer = 'Colonel Mustard';
+// // Episode 6
+// // Guess - Mr. Green
+// // Reasoning - The plot twist funtion cannot affect the 'global' variable??
+// // Correction - Literally no idea whats going on.
+// let murderer = 'Colonel Mustard';
+//
+// const changeMurderer = function() {
+//   murderer = 'Mr. Green';
+//
+//   const plotTwist = function() {
+//     murderer = 'Mrs. White';
+//   }
+//
+//   plotTwist();
+// }
+//
+// const declareMurderer = function () {
+//   return `The murderer is ${murderer}.`;
+// }
+//
+// changeMurderer();
+// const verdict = declareMurderer();
+// console.log(verdict);
 
-const changeMurderer = function() {
-  murderer = 'Mr. Green';
 
-  const plotTwist = function() {
-    murderer = 'Mrs. White';
-  }
+// // Episode 7
+// // Guess - Col. Mustard?
+// // Reasoning - Honestly. SO FRUSTRATED.
+// // Correction -
+// let murderer = 'Professor Plum';
+//
+// const changeMurderer = function() {
+//   murderer = 'Mr. Green';
+//
+//   const plotTwist = function() {
+//     let murderer = 'Colonel Mustard';
+//
+//     const unexpectedOutcome = function() {
+//       murderer = 'Miss Scarlet';
+//     }
+//
+//     unexpectedOutcome();
+//   }
+//
+//   plotTwist();
+// }
+//
+// const declareMurderer = function() {
+//   return `The murderer is ${murderer}.`;
+// }
+//
+// changeMurderer();
+// const verdict = declareMurderer();
+// console.log(verdict);
 
-  plotTwist();
-}
 
-const declareMurderer = function () {
-  return `The murderer is ${murderer}.`;
-}
 
-changeMurderer();
-const verdict = declareMurderer();
-console.log(verdict);
+// // Episode 8
+// // Guess - Given up
+// // Reasoning -
+// // Correction - I cant even look at these anymore.
+// const scenario = {
+//   murderer: 'Mrs. Peacock',
+//   room: 'Conservatory',
+//   weapon: 'Lead Pipe'
+// };
+//
+// const changeScenario = function() {
+//   scenario.murderer = 'Mrs. Peacock';
+//   scenario.room = 'Dining Room';
+//
+//   const plotTwist = function(room) {
+//     if (scenario.room === room) {
+//       scenario.murderer = 'Colonel Mustard';
+//     }
+//
+//     const unexpectedOutcome = function(murderer) {
+//       if (scenario.murderer === murderer) {
+//         scenario.weapon = 'Candle Stick';
+//       }
+//     }
+//
+//     unexpectedOutcome('Colonel Mustard');
+//   }
+//
+//   plotTwist('Dining Room');
+// }
+//
+// const declareWeapon = function() {
+//   return `The weapon is ${scenario.weapon}.`
+// }
+//
+// changeScenario();
+// const verdict = declareWeapon();
+// console.log(verdict);
+
+
+// // Episode 9
+// // Guess - Not even gonna guess.
+// // Reasoning -
+// // Correction -
+// let murderer = 'Professor Plum';
+//
+// if (murderer === 'Professor Plum') {
+//   let murderer = 'Mrs. Peacock';
+// }
+//
+// const declareMurderer = function() {
+//   return `The murderer is ${murderer}.`;
+// }
+//
+// const verdict = declareMurderer();
+// console.log(verdict);

@@ -9,3 +9,5 @@ weapon changed to Revolver
 
 
 Ep6
+murderer = Col. Mustard (can be changed)
+changed to Mr.Green?
